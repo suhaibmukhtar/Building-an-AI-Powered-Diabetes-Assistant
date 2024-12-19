@@ -5,3 +5,4 @@ langchain_community
 langchain-openai
 langchain-chroma>=0.1.2
 docx2txt
+sentence_transformers
