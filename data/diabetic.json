@@ -1,0 +1,40 @@
+{
+    "diabetes_in_india": {
+      "definition": "Diabetes is a chronic disease that occurs when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces.",
+      "description": {
+        "insulin_role": "Insulin is a hormone that regulates blood sugar.",
+        "hyperglycaemia": "Raised blood sugar, common effect of uncontrolled diabetes that leads to serious damage to the body's systems."
+      },
+      "statistics": {
+        "total_diabetics": {
+          "type": "Type 2",
+          "count": 77000000
+        },
+        "prediabetics": {
+          "count": 25000000
+        },
+        "awareness": {
+          "unaware_percentage": "More than 50%"
+        }
+      },
+      "health_implications": {
+        "increased_risk": {
+          "heart_attacks": "Two- to three-fold increased risk",
+          "strokes": "Two- to three-fold increased risk"
+        },
+        "complications": {
+          "neuropathy": {
+            "description": "Nerve damage that increases the chance of foot ulcers and infections.",
+            "consequences": "Possible limb amputation"
+          },
+          "diabetic_retinopathy": {
+            "description": "Accumulated damage to small blood vessels in the retina.",
+            "consequence": "Important cause of blindness"
+          },
+          "kidney_failure": {
+            "description": "Diabetes is among the leading causes of kidney failure."
+          }
+        }
+      }
+    }
+  }
