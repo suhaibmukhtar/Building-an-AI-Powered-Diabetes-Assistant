@@ -20,8 +20,9 @@ def load_document(url):
         content = loader.load()
         return content
     elif extention == "json":
-        loader = JSONLoader(url,
-                            jq_schema=".",
+        loader = JSONLoader(file_path=url,
+                            jq_schema=".messages[].content",
+                            text_content=False,
                             json_lines=True)
         content = loader.load()
         return content
